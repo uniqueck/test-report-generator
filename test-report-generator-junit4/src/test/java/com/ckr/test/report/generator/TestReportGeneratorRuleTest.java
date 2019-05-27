@@ -8,7 +8,7 @@ import org.junit.Ignore;
 import org.junit.Rule;
 import org.junit.Test;
 
-import com.ckr.test.report.generator.rule.TestReportGeneratorRule;
+import com.badenia.test.report.generator.rule.TestReportGeneratorRule;
 
 public class TestReportGeneratorRuleTest {
 

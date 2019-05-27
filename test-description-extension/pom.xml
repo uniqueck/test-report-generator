@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.ckr.test.report</groupId>
+		<groupId>com.badenia.test.report</groupId>
 		<artifactId>test-report-generator</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
@@ -19,6 +19,18 @@
 			<groupId>com.ckr.test.report</groupId>
 			<artifactId>test-report-generator-junit4</artifactId>
 			<version>${project.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.badenia.test.report</groupId>
+			<artifactId>test-report-generator-api</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.badenia.test.report</groupId>
+			<artifactId>test-report-generator-junit4</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
