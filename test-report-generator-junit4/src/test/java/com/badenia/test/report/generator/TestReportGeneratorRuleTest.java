@@ -1,4 +1,4 @@
-package com.ckr.test.report.generator;
+package com.badenia.test.report.generator;
 
 import static org.junit.Assert.fail;
 
