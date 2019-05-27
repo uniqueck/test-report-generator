@@ -11,26 +11,14 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.ckr.test.report</groupId>
+			<groupId>com.badenia.test.report</groupId>
 			<artifactId>test-report-generator-api</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.ckr.test.report</groupId>
+			<groupId>com.badenia.test.report</groupId>
 			<artifactId>test-report-generator-junit4</artifactId>
 			<version>${project.version}</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.badenia.test.report</groupId>
-			<artifactId>test-report-generator-api</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.badenia.test.report</groupId>
-			<artifactId>test-report-generator-junit4</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>

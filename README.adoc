@@ -1,0 +1,5 @@
+= Testreport generator
+
+image:https://travis-ci.org/deutsche-bausparkasse-badenia-ag/test-report-generator.svg?branch=master["Build Status", link="https://travis-ci.org/deutsche-bausparkasse-badenia-ag/test-report-generator"]
+
+
