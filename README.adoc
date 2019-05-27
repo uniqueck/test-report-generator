@@ -1,5 +1,13 @@
 = Testreport generator
 
 image:https://travis-ci.org/deutsche-bausparkasse-badenia-ag/test-report-generator.svg?branch=master["Build Status", link="https://travis-ci.org/deutsche-bausparkasse-badenia-ag/test-report-generator"]
+image:https://sonarcloud.io/api/project_badges/measure?project=deutsche-bausparkasse-badenia-ag_test-report-generator&metric=alert_status["Quality Gate", link="https://sonarcloud.io/api/project_badges/measure?project=deutsche-bausparkasse-badenia-ag_test-report-generator&metric=alert_status"]
+image:https://sonarcloud.io/api/project_badges/measure?project=deutsche-bausparkasse-badenia-ag_test-report-generator&metric=sqale_rating["maintainability", link="https://sonarcloud.io/api/project_badges/measure?project=deutsche-bausparkasse-badenia-ag_test-report-generator&metric=sqale_rating"]
+image:https://sonarcloud.io/api/project_badges/measure?project=deutsche-bausparkasse-badenia-ag_test-report-generator&metric=coverage["Coverage, link="https://sonarcloud.io/api/project_badges/measure?project=deutsche-bausparkasse-badenia-ag_test-report-generator&metric=coverage"]
+image:https://sonarcloud.io/api/project_badges/measure?project=deutsche-bausparkasse-badenia-ag_test-report-generator&metric=code_smells["Code Smells", link="https://sonarcloud.io/api/project_badges/measure?project=deutsche-bausparkasse-badenia-ag_test-report-generator&metric=code_smells"]
+image:https://sonarcloud.io/api/project_badges/measure?project=deutsche-bausparkasse-badenia-ag_test-report-generator&metric=ncloc["lines of code, link="https://sonarcloud.io/api/project_badges/measure?project=deutsche-bausparkasse-badenia-ag_test-report-generator&metric=ncloc"]
+
+
+
 
 
