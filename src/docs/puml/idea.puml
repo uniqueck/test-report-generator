@@ -1,0 +1,56 @@
+@startuml
+
+allowmixing
+
+node "Test Report Generator Framework" {
+
+
+    class "TestReportGeneratorJUnit4Rule" as junit4Rule {
+
+    }
+
+    class "AsciiDoc Extension" as asciiDocExtemsion {
+
+    }
+
+
+}
+
+
+node "Consumer" {
+
+
+    folder "src/test/java" {
+
+        class "TestClass1" {
+
+        }
+    }
+
+    file "pom.xml" as mavenBuild {
+        rectangle "plugins" {
+            file "asciidoc-maven-plugin" as asciiDocMavenPlugin {
+            }
+        }
+    }
+
+    folder "target/testReportGenerator" as testReportGeneratorOutputDirectory  {
+        file "TestClass1.xml"
+    }
+
+    folder "src/docs" {
+        file "TestReport.adoc" as TestReportAdoc {
+        }
+    }
+
+}
+
+
+TestClass1 --> junit4Rule : use
+asciiDocMavenPlugin --> asciiDocExtemsion : delclares as dependencie
+junit4Rule --> testReportGeneratorOutputDirectory : generate metadata\n for each TestCase\n (status of test and values for declared annotations)
+TestReportAdoc --> asciiDocExtemsion : call extension with parameter\ntarget/testReportGenerator
+
+
+
+@enduml
