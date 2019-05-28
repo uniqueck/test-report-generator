@@ -28,4 +28,6 @@ cache:
     
 notifications:
   email: false
-  webhooks: https://fathomless-fjord-24024.herokuapp.com/notify
+
+after_script:
+  - bash ./scripts/telegram_notification.sh
