@@ -65,7 +65,7 @@ public class TestReportGeneratorRule extends TestWatcher implements ITestReportG
     @Override
     public <T extends Annotation> void register(Class<T> annotation, ITestReportGeneratorExtension<T> extension) {
         if (log.isTraceEnabled()) {
-            log.trace(extension);
+            log.trace(extension.getClass().getSimpleName());
         }
     }
 
